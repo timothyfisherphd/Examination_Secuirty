@@ -1,18 +1,15 @@
-# Examination_Secuirty
-Examination Security: Facial Detection
-
+# Examination Security: Facial Detection
 
 Edited From: RAHUL RANJAN, Avi Nehemiah, MATHWORKS & MATLAB Applications
 
 Authors: Timothy F. (CSC 6630/tfisher10), Kevin S.(CSC 4630/kseveur1), Micheal M.
 (CSC 4630/ mmoloney1), Adrian M.(CSC 4630/amcghee3)
 
-
 Description: To develop a GUI that recgonizes a face and matches it to the
 images GUI's database. The database will automatically check if the
 matched faced from the live captured image is present in the database.
  
-Assumptions: 
+## Assumptions: 
 - User knows basic usage of a computers components (mouse, keyboard,
 webcam, etc.)
 - Must download the complete zip file and not edit the orgnization of the folders. 
@@ -20,7 +17,7 @@ webcam, etc.)
 toolbox,  Statitics and Machine Learning Toolbox and the 
 correct video adapter for MATLAB installed. 
 
-Usage:
+## Usage:
 1.) In MATLAB Command Window, type TestVerification to begin the program. 
 2.) First select the student's name you are trying to verify. This will begin the training and set the matching to the student's folder. ( Go to step 5 if student name is not in drop down box.)
 3.) Click the Verify ID then click Camera. Follow all the prompts in the message boxes and dialoge boxes.
@@ -31,47 +28,38 @@ Usage:
 8.) Redo steps 1 through 4. 
 9.) Quit the program when you are done.  
 
-Program Outline & Responsiblities (R)
+## Program Outline & Responsiblities (R)
 
 TestVerification.m
-    1.) R - Timothy F. / Adrian M.
-        GUI Initialization code (lines 31 to 48)
-        function TestVerification_OpeningFcn(hObject, eventdata, handles, varargin)
-        function varargout = TestVerification_OutputFcn(hObject, eventdata, handles)
+1. R - Timothy F. / Adrian M. GUI Initialization code (lines 31 to 48)
+- function TestVerification_OpeningFcn(hObject, eventdata, handles, varargin)
+- function varargout = TestVerification_OutputFcn(hObject, eventdata, handles)
     
-    2.) R - Micheal M. 
+2. R - Micheal M. 
+- function Verify_Callback(hObject, eventdata, handles) 
+- function Camera_Callback(hObject, eventdata, handles)
 
-        function Verify_Callback(hObject, eventdata, handles) 
-        function Camera_Callback(hObject, eventdata, handles)
+3. R - Adrian M. / Timothy F. (RAHUL)
+- function Database_Callback(hObject, eventdata, handles)
+- function View_Callback(hObject, eventdata, handles)
+- function Picture_Callback(hObject, eventdata, handles)
+- function New_Student_Callback(hObject, eventdata, handles)
 
-    3.) R - Adrian M. / Timothy F. (RAHUL)
+4. R - Timothy F. 
+- function Other_Callback(hObject, eventdata, handles)
+- function HE_LP_Callback(hObject, eventdata, handles)
+- function Reset_Callback(hObject, eventdata, handles)
+- function All_Callback(hObject, eventdata, handles)
+- function Exit_Callback(hObject, eventdata, handles)
+- function Quit_Callback(hObject, eventdata, handles)
 
-        function Database_Callback(hObject, eventdata, handles)
-        function View_Callback(hObject, eventdata, handles)
-        function Picture_Callback(hObject, eventdata, handles)
-        function New_Student_Callback(hObject, eventdata, handles)
-
-    4.) R - Timothy F. 
-
-
-        function Other_Callback(hObject, eventdata, handles)
-        function HE_LP_Callback(hObject, eventdata, handles)
-        
-        function Reset_Callback(hObject, eventdata, handles)
-        function All_Callback(hObject, eventdata, handles)
-
-        function Exit_Callback(hObject, eventdata, handles)
-        function Quit_Callback(hObject, eventdata, handles)
-
-    5.) R - Micheal M. 
-
-        function Student_Select_Callback(hObject, eventdata, handles)
-
-        function Student_Select_CreateFcn(hObject, eventdata, handles)
+5. R - Micheal M. 
+- function Student_Select_Callback(hObject, eventdata, handles)
+- function Student_Select_CreateFcn(hObject, eventdata, handles)
 
 
-train_match.m (AVI)
-    1.) R - Micheal M. / Kevin S.
+6. train_match.m (AVI)
+    1. R - Micheal M. / Kevin S.
         classdef train_match
             properties
             methods
@@ -79,13 +67,12 @@ train_match.m (AVI)
                 function train
                 function match
 
-Other Responsiblities:
+## Other Responsiblities:
     Troubleshooting / Debugging: All
     Ideas : All
     Video Editing: Micheal M. 
 
-
-Notes: 
+## Notes: 
 - If you have a windows or linux system then use need to change the .m files code
   to your respective adaptors.
 - Change the / to \ when using windows!!!!
