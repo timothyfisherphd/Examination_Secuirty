@@ -18,15 +18,15 @@ toolbox,  Statitics and Machine Learning Toolbox and the
 correct video adapter for MATLAB installed. 
 
 ## Usage:
-1.) In MATLAB Command Window, type TestVerification to begin the program. 
-2.) First select the student's name you are trying to verify. This will begin the training and set the matching to the student's folder. ( Go to step 5 if student name is not in drop down box.)
-3.) Click the Verify ID then click Camera. Follow all the prompts in the message boxes and dialoge boxes.
+1. In MATLAB Command Window, type TestVerification to begin the program. 
+2. First select the student's name you are trying to verify. This will begin the training and set the matching to the student's folder. ( Go to step 5 if student name is not in drop down box.)
+3. Click the Verify ID then click Camera. Follow all the prompts in the message boxes and dialoge boxes.
 4.  If matched, then in the right window you will have a matched image from the database. If not matched then you will have a red x. 
-5.) If student is not in the database then go to Database menu option. Then click New Student to add a new folder to FaceDatabaseFolder. 
-6.) Then add new student image by scrolling to Database then clicking New Student Picture to add a new student picture. Follow all the prompts.  
-7.) Reset the prgram after you added the new pictures. 
-8.) Redo steps 1 through 4. 
-9.) Quit the program when you are done.  
+5. If student is not in the database then go to Database menu option. Then click New Student to add a new folder to FaceDatabaseFolder. 
+6. Then add new student image by scrolling to Database then clicking New Student Picture to add a new student picture. Follow all the prompts.  
+7. Reset the prgram after you added the new pictures. 
+8. Redo steps 1 through 4. 
+9. Quit the program when you are done.  
 
 ## Program Outline & Responsiblities (R)
 
