@@ -32,30 +32,30 @@ correct video adapter for MATLAB installed.
 
 TestVerification.m
 1. R - Timothy F. / Adrian M. GUI Initialization code (lines 31 to 48)
-- function TestVerification_OpeningFcn(hObject, eventdata, handles, varargin)
-- function varargout = TestVerification_OutputFcn(hObject, eventdata, handles)
+    - function TestVerification_OpeningFcn(hObject, eventdata, handles, varargin)
+    - function varargout = TestVerification_OutputFcn(hObject, eventdata, handles)
     
 2. R - Micheal M. 
-- function Verify_Callback(hObject, eventdata, handles) 
-- function Camera_Callback(hObject, eventdata, handles)
+    - function Verify_Callback(hObject, eventdata, handles) 
+    - function Camera_Callback(hObject, eventdata, handles)
 
 3. R - Adrian M. / Timothy F. (RAHUL)
-- function Database_Callback(hObject, eventdata, handles)
-- function View_Callback(hObject, eventdata, handles)
-- function Picture_Callback(hObject, eventdata, handles)
-- function New_Student_Callback(hObject, eventdata, handles)
+    - function Database_Callback(hObject, eventdata, handles)
+    - function View_Callback(hObject, eventdata, handles)
+    - function Picture_Callback(hObject, eventdata, handles)
+    - function New_Student_Callback(hObject, eventdata, handles)
 
 4. R - Timothy F. 
-- function Other_Callback(hObject, eventdata, handles)
-- function HE_LP_Callback(hObject, eventdata, handles)
-- function Reset_Callback(hObject, eventdata, handles)
-- function All_Callback(hObject, eventdata, handles)
-- function Exit_Callback(hObject, eventdata, handles)
-- function Quit_Callback(hObject, eventdata, handles)
+    - function Other_Callback(hObject, eventdata, handles)
+    - function HE_LP_Callback(hObject, eventdata, handles)
+    - function Reset_Callback(hObject, eventdata, handles)
+    - function All_Callback(hObject, eventdata, handles)
+    - function Exit_Callback(hObject, eventdata, handles)
+    - function Quit_Callback(hObject, eventdata, handles)
 
 5. R - Micheal M. 
-- function Student_Select_Callback(hObject, eventdata, handles)
-- function Student_Select_CreateFcn(hObject, eventdata, handles)
+    - function Student_Select_Callback(hObject, eventdata, handles)
+    - function Student_Select_CreateFcn(hObject, eventdata, handles)
 
 
 6. train_match.m (AVI)
