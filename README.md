@@ -59,13 +59,13 @@ TestVerification.m
 
 
 6. train_match.m (AVI)
-$    R - Micheal M. / Timothy F. 
-$        classdef train_match
-$            properties
-$            methods
-$                function setStudentChoice
-$                function train
-$                function match
+    [R - Micheal M. / Timothy F.] 
+        [classdef train_match]
+           [properties]
+            [methods]
+                [function setStudentChoice]
+                [function train]
+                [function match]
 
 ## Other Responsiblities:
 - Troubleshooting / Debugging: All
