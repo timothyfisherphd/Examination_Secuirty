@@ -59,7 +59,7 @@ TestVerification.m
 
 
 6. train_match.m (AVI)
-    1. R - Micheal M. / Kevin S.
+    R - Micheal M. / Timothy F. 
         classdef train_match
             properties
             methods
