@@ -1,5 +1,5 @@
 %{
-Edited From: RAHUL RANJAN, Avi Nehemiah, MATHWORKS & MATLAB Applications
+ Resources From: RAHUL RANJAN, Avi Nehemiah, MATHWORKS & MATLAB Applications
 
 Authors: Timothy F. (CSC 6630\tfisher10), Kevin S.(CSC 4630\kseveur1), Micheal M.
 (CSC 4630\ mmoloney1), Adrian M.(CSC 4630\amcghee3)
