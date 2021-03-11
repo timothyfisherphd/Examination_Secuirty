@@ -68,9 +68,9 @@ TestVerification.m
                 function match
 
 ## Other Responsiblities:
-    Troubleshooting / Debugging: All
-    Ideas : All
-    Video Editing: Micheal M. 
+Troubleshooting / Debugging: All
+Ideas : All
+Video Editing: Micheal M. 
 
 ## Notes: 
 - If you have a windows or linux system then use need to change the .m files code
