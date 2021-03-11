@@ -2,8 +2,13 @@
 
 Edited From: RAHUL RANJAN, Avi Nehemiah, MATHWORKS & MATLAB Applications
 
-Authors: Timothy F. (CSC 6630/tfisher10), Kevin S.(CSC 4630/kseveur1), Micheal M.
-(CSC 4630/ mmoloney1), Adrian M.(CSC 4630/amcghee3)
+Authors of Four Musketeers: Timothy F. (tfisher10), Kevin S.(kseveur1), Micheal M.
+(mmoloney1), Adrian M.(amcghee3)
+
+CSC 6630 Capstone Project
+Capstone Video of Implementation - (https://drive.google.com/file/d/1CJrcoRS1z846GQSclaBwwUm7Db9YVOqG/view?usp=sharing)
+Short PowerPoint Presentation - (https://docs.google.com/presentation/d/1g33BXqqyzA68Fjrct_yij4fbqohPiCboQ3M_8T7uL1Q/edit?usp=sharing)
+
 
 Description: To develop a GUI that recgonizes a face and matches it to the
 images GUI's database. The database will automatically check if the
