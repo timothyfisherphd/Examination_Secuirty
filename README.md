@@ -1,7 +1,5 @@
 # Examination Security: Facial Detection
 
-Edited From: RAHUL RANJAN, Avi Nehemiah, MATHWORKS & MATLAB Applications
-
 Authors of Four Musketeers: Timothy F. (tfisher10), Kevin S.(kseveur1), Micheal M.
 (mmoloney1), Adrian M.(amcghee3)
 
